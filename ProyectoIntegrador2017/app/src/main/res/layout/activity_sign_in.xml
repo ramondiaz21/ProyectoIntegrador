@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context="com.example.ramon.proyectointegrador2017.Registrarse">
 
+
     <ImageView
         android:layout_width="0dp"
         android:layout_height="495dp"
@@ -21,68 +22,49 @@
         tools:layout_editor_absoluteY="8dp"
         tools:layout_editor_absoluteX="8dp">
 
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Nombre"
-            android:textAppearance="@android:style/TextAppearance.Material.Large" />
-
         <EditText
-            android:id="@+id/editText"
+            android:id="@+id/etNombre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name" />
-
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Usuario"
-            android:textAppearance="@android:style/TextAppearance.Material.Large" />
+            android:drawableLeft="@drawable/carnet"
+            android:hint=" Nombre"
+            android:inputType="textPersonName" />
 
         <EditText
-            android:id="@+id/editText2"
+            android:id="@+id/etUsuario"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name" />
-
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Contraseña"
-            android:textAppearance="@android:style/TextAppearance.Material.Large" />
+            android:hint=" Usuario"
+            android:drawableLeft="@drawable/usuarios"
+            android:inputType="textPersonName" />
 
         <EditText
-            android:id="@+id/editText3"
+            android:id="@+id/etContrasena"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:hint=" Contraseña"
+            android:drawableLeft="@drawable/bloqueado"
             android:inputType="textPassword" />
 
-        <TextView
-            android:id="@+id/textView7"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="TextView"
-            android:textAppearance="@android:style/TextAppearance.Material.Large" />
-
         <EditText
-            android:id="@+id/editText4"
+            android:id="@+id/etMail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:hint=" Correo Electrónico"
+            android:drawableLeft="@drawable/email"
             android:inputType="textEmailAddress" />
 
-        <Button
-            android:id="@+id/button"
-            android:layout_width="match_parent"
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_registro"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="24dp"
+            android:padding="12dp"
             android:text="Registrarse" />
 
         <TextView
@@ -90,6 +72,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="O conectar por:"
+            android:gravity="center"
             android:textAppearance="@android:style/TextAppearance.Material.Large" />
 
         <LinearLayout

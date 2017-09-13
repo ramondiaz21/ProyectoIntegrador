@@ -24,13 +24,17 @@
         android:weightSum="1">
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/title"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.25"
-            android:text="Mobile Ranch"
+            android:layout_height="41dp"
             android:gravity="center"
-            android:textAppearance="@android:style/TextAppearance.Material.Large" />
+            android:text="Mobile Ranch"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:textSize="50sp"
+            android:textColor="#000000"
+            android:textAppearance="@android:style/TextAppearance.Material.Large"
+            android:layout_weight="0.11" />
 
         <ImageView android:src="@drawable/herradura"
             android:layout_width="299dp"
@@ -40,16 +44,24 @@
 
             android:layout_weight="0.36" />
 
+
         <Button
             android:id="@+id/InicioSesion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Iniciar Sesión" />
+            android:text="Iniciar Sesión"
+
+            android:style="@style/Widget.AppCompat.Button.Colored"
+            />
+
 
         <Button
             android:id="@+id/Registrarse"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:style="@style/Widget.AppCompat.Button.Colored"
+
             android:text="Registrarse" />
+
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
