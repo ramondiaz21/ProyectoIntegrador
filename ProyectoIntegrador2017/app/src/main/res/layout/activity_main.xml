@@ -59,8 +59,9 @@
             android:id="@+id/Registrarse"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:style="@style/Widget.AppCompat.Button.Colored"
+            android:onClick="mandar"
 
+            android:style="@style/Widget.AppCompat.Button.Colored"
             android:text="Registrarse" />
 
     </LinearLayout>
