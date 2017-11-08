@@ -42,7 +42,7 @@
                 android:textStyle="bold"
                 android:textSize="50sp"
                 android:textColor="#000000"
-                android:textAppearance="@android:style/TextAppearance.Material.Large"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
                 android:layout_weight="0.11" />
 
             <ImageView
@@ -51,7 +51,6 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginBottom="24dp"
                 android:src="@drawable/herradura"
-
                 android:layout_weight="0.11" />
 
             <!-- Email Label -->
